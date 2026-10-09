@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101212">
+  <title>Contact | Isaiah Koroma</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/views/contact/contact.css">
+  <script src="../assets/main.js" defer></script>
+  <script src="../assets/contact.js" defer></script>
+</head>
+<body id="top" class="page-contact">
+  <header class="site-header">
+    <a class="site-logo" href="../index.html#top" aria-label="Isaiah home">
+      <span class="site-mark" aria-hidden="true"><span>以</span><span>赛</span><span>亚</span><span>。</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul class="site-nav-menu">
+        <li><a href="../index.html#top">Home</a></li>
+        <li><a href="../index.html#projects-section">Projects</a></li>
+        <li><a href="../index.html#skills-section">Skills</a></li>
+        <li><a href="../index.html#about-section">About</a></li>
+        <li><a class="site-nav-contact" href="./">Contact</a></li>
+        <li><a class="site-nav-cv" href="../assets/Isaiah-Koroma-CV.pdf" download>CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-card" aria-labelledby="contact-title">
+      <p class="contact-eyebrow">Get in touch</p>
+      <h1 id="contact-title">Let's make something good.</h1>
+      <div class="contact-copy">
+        <p>This standalone export does not include the WordPress server needed to deliver contact form messages.</p>
+      </div>
+      <p class="contact-feedback contact-feedback-error" id="contact-feedback" role="status" hidden></p>
+      <form class="contact-form" data-static-contact-form>
+        <div class="contact-field">
+          <label for="contact-name">Name</label>
+          <input id="contact-name" name="contact_name" type="text" autocomplete="name" maxlength="100" required>
+        </div>
+        <div class="contact-field">
+          <label for="contact-email">Email</label>
+          <input id="contact-email" name="contact_email" type="email" autocomplete="email" maxlength="254" required>
+        </div>
+        <div class="contact-field">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="contact_message" rows="3" maxlength="5000" required></textarea>
+        </div>
+        <button class="contact-submit" type="submit">Send message <span aria-hidden="true">&rarr;</span></button>
+      </form>
+      <div class="contact-auxiliary">
+        <a class="contact-back-link" href="../index.html#top">&larr; Back to portfolio</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <p class="site-footer-name">Isaiah Koroma</p>
+    <p class="site-footer-copy">&copy; 2026 Isaiah Koroma. All rights reserved.</p>
+  </footer>
+</body>
+</html>

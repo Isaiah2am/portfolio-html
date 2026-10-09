@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101212">
+  <meta name="description" content="Isaiah Koroma is a software developer building creative digital experiences.">
+  <title>Isaiah Koroma | Software Developer</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/views/front-page/front-page.css">
+  <script src="assets/main.js" defer></script>
+</head>
+<body id="top">
+  <header class="site-header">
+    <a class="site-logo" href="#top" aria-label="Isaiah home">
+      <span class="site-mark" aria-hidden="true"><span>以</span><span>赛</span><span>亚</span><span>。</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul class="site-nav-menu">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#skills-section">Skills</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a class="site-nav-contact" href="contact/">Contact</a></li>
+        <li><a class="site-nav-cv" href="assets/Isaiah-Koroma-CV.pdf" download>CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <section id="Main-section" class="box_border">
+      <div class="hero-stars" aria-label="Animated stars">
+        <button class="hero-star hero-star-one" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10022;</span></button>
+        <button class="hero-star hero-star-two" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10023;</span></button>
+        <button class="hero-star hero-star-three" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10022;</span></button>
+        <button class="hero-star hero-star-four" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10023;</span></button>
+        <button class="hero-star hero-star-five" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10022;</span></button>
+        <button class="hero-star hero-star-six" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10023;</span></button>
+        <button class="hero-star hero-star-seven" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10022;</span></button>
+        <button class="hero-star hero-star-eight" type="button" aria-label="Send star flying"><span aria-hidden="true">&#10023;</span></button>
+      </div>
+
+      <section id="Main-Text-section">
+        <p class="intro-text"></p>
+        <h1 class="name-text">Isaiah Koroma</h1>
+        <p class="about-title">[Software Developer]</p>
+        <p class="bio-text">I like to design.</p>
+        <a class="Button" href="#projects-section">PROJECTS</a>
+      </section>
+      <img class="laptopman" src="assets/imgs/laptopman.webp" alt="">
+    </section>
+
+    <section id="projects-section" class="projects-section">
+      <h2 class="favorite-projects-title">View Projects</h2>
+      <div class="Project-cards">
+        <section class="project-card homepage-project-card">
+          <div class="duo-text">
+            <p class="project-label">Software development</p>
+            <h2 class="duo-project-name">Project Muse</h2>
+            <p class="duo-project-info">An interactive HTML/JS game where players use a custom physical controller to throw tomatoes at rich people, powered locally by a Raspberry Pi.</p>
+            <div class="project-actions">
+              <a class="Button-small" href="https://github.com/Isaiah2am/M8BO_protest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <button class="Button-small project-info-toggle" type="button" aria-expanded="false" aria-controls="project-info-muse" data-project-info-toggle>More info</button>
+            </div>
+            <dialog class="project-info-panel" id="project-info-muse" aria-labelledby="project-info-muse-title" data-project-info-panel>
+              <button class="project-info-close" type="button" aria-label="Close Project Muse details" data-project-info-close autofocus>&times;</button>
+              <h3 id="project-info-muse-title">Project Muse</h3>
+              <p>The game connects a custom-built physical controller to a browser-based experience. A Raspberry Pi runs the local setup, bringing the hardware and game together without relying on a remote server.</p>
+            </dialog>
+          </div>
+          <img class="duo-img" src="assets/imgs/Muse.jpg" alt="Project Muse preview">
+        </section>
+
+        <section class="project-card homepage-project-card">
+          <div class="duo-text">
+            <p class="project-label">Software development</p>
+            <h2 class="duo-project-name">Muziek stoel</h2>
+            <p class="duo-project-info">An interactive Arduino IoT chair that plays different instruments based on how you sit. I installed the hardware, wired the sensors, and set up the local system to turn body posture into live music.</p>
+            <div class="project-actions">
+              <a class="Button-small" href="https://github.com/Isaiah2am/m6bo-muziekstoel" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <button class="Button-small project-info-toggle" type="button" aria-expanded="false" aria-controls="project-info-chair" data-project-info-toggle>More info</button>
+            </div>
+            <dialog class="project-info-panel" id="project-info-chair" aria-labelledby="project-info-chair-title" data-project-info-panel>
+              <button class="project-info-close" type="button" aria-label="Close Muziek stoel details" data-project-info-close autofocus>&times;</button>
+              <h3 id="project-info-chair-title">Muziek stoel</h3>
+              <p>This project combines Arduino sensors, chair-mounted hardware, and a local system. Sensor readings respond to posture and select the instrument heard while sitting in the chair.</p>
+            </dialog>
+          </div>
+          <img class="duo-img" src="assets/imgs/stoel.jpg" alt="Music chair project preview">
+        </section>
+
+        <section class="project-card homepage-project-card">
+          <div class="duo-text">
+            <p class="project-label">Web development</p>
+            <h2 class="duo-project-name">Visual novel</h2>
+            <p class="duo-project-info">An HTML/CSS/JS wireframe built to test interactive story mechanics and show branching options to my team, before pivoting the project into a tomato-throwing game.</p>
+            <div class="project-actions">
+              <a class="Button-small" href="https://github.com/Isaiah2am/Visual-Novel_Test" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <button class="Button-small project-info-toggle" type="button" aria-expanded="false" aria-controls="project-info-novel" data-project-info-toggle>More info</button>
+            </div>
+            <dialog class="project-info-panel" id="project-info-novel" aria-labelledby="project-info-novel-title" data-project-info-panel>
+              <button class="project-info-close" type="button" aria-label="Close Visual novel details" data-project-info-close autofocus>&times;</button>
+              <h3 id="project-info-novel-title">Visual novel</h3>
+              <p>The wireframe focused on interactive story flow: readers could make choices and see branching options. It was an early prototype used to test the mechanics with the team before the idea evolved into a different game.</p>
+            </dialog>
+          </div>
+          <img class="duo-img" src="assets/imgs/VN.png" alt="Visual novel project preview">
+        </section>
+
+        <section class="project-card homepage-project-card">
+          <div class="duo-text">
+            <p class="project-label">Web development</p>
+            <h2 class="duo-project-name">Roomus site</h2>
+            <p class="duo-project-info">Built a responsive web app for an external client based on a school brief. Created the interface with HTML, CSS, and JavaScript, and delivered the project on time.</p>
+            <div class="project-actions">
+              <a class="Button-small" href="https://github.com/Isaiah2am/m6bo-muziekstoel" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <button class="Button-small project-info-toggle" type="button" aria-expanded="false" aria-controls="project-info-roomus" data-project-info-toggle>More info</button>
+            </div>
+            <dialog class="project-info-panel" id="project-info-roomus" aria-labelledby="project-info-roomus-title" data-project-info-panel>
+              <button class="project-info-close" type="button" aria-label="Close Roomus site details" data-project-info-close autofocus>&times;</button>
+              <h3 id="project-info-roomus-title">Roomus site</h3>
+              <p>The work covered the responsive interface and its implementation in HTML, CSS, and JavaScript. It was developed to meet an external client's school-brief requirements and delivered on schedule.</p>
+            </dialog>
+          </div>
+          <img class="duo-img" src="assets/imgs/roomus.png" alt="Roomus site preview">
+        </section>
+      </div>
+    </section>
+
+
+<section id="skills-section" class="skills-section">
+      <h2 class="favorite-projects-title"><span>What I can do</span></h2>
+      <p class="skills-intro">These are the skills I've learned.</p>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-mark" aria-hidden="true">&lt;/&gt;</span><h3>HTML</h3></article>
+        <article class="skill-card"><span class="skill-mark" aria-hidden="true">#</span><h3>CSS</h3></article>
+        <article class="skill-card"><span class="skill-mark" aria-hidden="true">JS</span><h3>JavaScript</h3></article>
+        <article class="skill-card"><span class="skill-mark" aria-hidden="true">&#10022;</span><h3>adobe xd</h3></article>
+      </div>
+    </section>
+
+    <section id="about-section" class="about-section">
+      <div class="about-portrait">
+        <img src="assets/imgs/me.jpg" alt="Isaiah working at a laptop">
+        <span>Isaiah Koroma</span>
+      </div>
+      <div class="about-content">
+        <p class="project-label">A little about</p>
+        <h2 class="about-title">About me</h2>
+        <p class="about-copy">I am a software developer who enjoys turning thoughtful ideas into clear, practical digital experiences. I care about readable code, honest design, and details that make websites easier to use.</p>
+        <p class="about-focus">Software development <span>&bull;</span> Web design <span>&bull;</span> Creative technology</p>
+        <div class="about-actions"><a class="about-button" href="#projects-section">My work</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <p class="site-footer-name">Isaiah Koroma</p>
+    <p class="site-footer-copy">&copy; 2026 Isaiah Koroma. All rights reserved.</p>
+  </footer>
+</body>
